@@ -2,7 +2,8 @@
 
 int main ()
 {
-  printf ("Meu nome é Renata")
+  printf ("")
   
   return 0;
+
 }
