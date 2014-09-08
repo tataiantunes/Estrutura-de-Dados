@@ -21,4 +21,5 @@ int trocar(int x, int y)
     printf("Invertendo, temos o primeiro numero %i e o segundo %i", x,y);
 
     return 0 ;
+    
 }
