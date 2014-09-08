@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main (void){
+int main (void)
+{
     int a,b;
     printf("Digite dois valores:\n");
     scanf("%i\n%i", &a,&b);
@@ -10,7 +11,8 @@ int main (void){
     return 0;
 }
 
-int maior(int x, int y ){
+int maior(int x, int y )
+{
     if (x>y)
         printf("O %i eh maior que %i", x, y);
     else if (x==y)
