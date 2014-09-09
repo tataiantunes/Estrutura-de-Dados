@@ -1,4 +1,4 @@
-// Basico
+// Sem ponteiros
 
 #include <stdio.h>
 
@@ -24,7 +24,7 @@ int trocar(int x, int y)
     return 0 ;
 }
 
-//Usando Ponteiros
+// Com ponteiros
 
 #include <stdio.h>
 
