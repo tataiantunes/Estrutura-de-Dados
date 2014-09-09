@@ -41,3 +41,49 @@ float dados(float a, float b, float mediasimples, float mediaponderada){
     return 0;
 }
 
+// 
+
+#include <stdio.h>
+
+int main (void)
+{
+    float nota1, nota2,mediasimples, mediaponderada;
+    printf("Digite sua primeira nota:\n");
+    scanf("%f", &nota1);
+    printf("Digite sua segunda nota:\n");
+    scanf("%f", &nota2);
+
+    if (nota1<=10 && nota1>0)
+    {
+        if (nota2<=10 && nota2>0){
+            float calc_med(float a, float b);
+            calc_med(nota1,nota2);
+            float le_dados(float a, float b, float mediasimples, float mediaponderada);
+            le_dados(nota1, nota2, mediasimples, mediaponderada);
+            }
+        else{
+            printf("Nota 2 invalida");
+            }
+    }
+    else{
+        printf("Nota 1 invalida");
+        }
+
+    return 0;
+}
+
+float calc_med(float a, float b){
+    float mediasimples = ((a + b)/2);
+    float mediaponderada = ((a + (b*2))/3);
+
+    return (mediasimples,mediaponderada);
+}
+
+
+float le_dados(float a, float b, float mediasimples, float mediaponderada){
+    float calc_med(float a, float b);
+    calc_med(nota1,nota2);
+    printf("As suas notas foram: %.2f e %.2f. E a sua media simples foi %.2f e a ponderada foi %.2f",a,b,mediasimples,mediaponderada);
+
+    return 0;
+}
