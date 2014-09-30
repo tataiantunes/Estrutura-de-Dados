@@ -1,0 +1,5 @@
+1) Suponha que v é um vetor. Descreva a diferença conceitual entre as expressões v[3] e v + 3.
+
+1) Para v[3] implica que ele é um vetor com 3 elementos ou então o valor contido na posição 2 do vetor,
+de acordo com o solicitado no código.
+
