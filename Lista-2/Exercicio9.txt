@@ -1,0 +1,21 @@
+9) Qual o resultado do código abaixo? Explique cada linha.
+int x = 100, *p, **pp;
+p = &x;
+pp = &p;
+printf(“Valor de pp: %d\n”, **pp);
+
+9)
+Linha 1: int x = 100, *p, **pp;
+Linha 2: p = &x;
+Linha 3: pp = &p;
+Linha 4: printf(“Valor de pp: %d\n”, **pp);
+
+Na linha 1: foi criada uma variável de tipo inteiro "x" que teve valor atribuido 100. 
+Também foram criadas um ponteiro "p" de tipo inteiro e um ponteiro do ponteiro de "p" chamado "pp".
+
+Na linha 2: o ponteiro "p" está apontando para o endereço da variável "x"
+
+Na linha 3: o ponteiro "pp" está apontando para o endereço do ponteiro "p"
+
+Na linha 4: é impresso o valor que se encontra no endereço "pp" que aponta para o "p" que é o endereço da variável "x" que contém
+o valor 100.
