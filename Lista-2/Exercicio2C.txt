@@ -21,3 +21,4 @@ printf ("%s vem antes de %s no dicionário", a, b);
 else
 printf ("%s vem depois de %s no dicionário", a, b);
 }
+
