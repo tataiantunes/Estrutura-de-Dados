@@ -1,0 +1,23 @@
+2­ Os  programas (trechos de código) abaixo possuem erros? Qual(is)? Como deveriam ser? Comente? 
+
+c)
+
+char *a, *b;
+a = "abacate";
+b = "uva";
+if (a < b)
+printf ("%s vem antes de %s no dicionário", a, b);
+else
+printf ("%s vem depois de %s no dicionário", a, b);
+
+c) O correto seria:
+
+void main (){ // Deve-se começar com main() {} e pode usar ou não o void
+char *a, *b;
+a = "abacate";
+b = "uva";
+if (a < b)
+printf ("%s vem antes de %s no dicionário", a, b);
+else
+printf ("%s vem depois de %s no dicionário", a, b);
+}
