@@ -1,0 +1,23 @@
+2­ Os  programas (trechos de código) abaixo possuem erros? Qual(is)? Como deveriam ser? Comente? 
+
+b)
+
+void troca (int *i, int *j){
+
+int *temp;
+
+*temp = *i;
+
+*i = *j;
+
+*j = *temp;
+
+}
+
+b) O correto seria:
+
+void troca (int *i, int *j){
+
+*i = *j; // Não é necessário usar a variável temp pois estamos trabalhando com ponteiros.
+
+}
