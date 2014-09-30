@@ -21,7 +21,7 @@ int main(void)
       scanf("%i", &v[i]);
     }
     
-  mm(v, N, &maximo, &minimo);
+  mm(v, a, &maximo, &minimo);
   
   printf("O minimo eh: %i\n", minimo);
   
