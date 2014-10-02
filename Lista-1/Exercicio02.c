@@ -44,6 +44,9 @@ int maior(int *a, int *b){
     else if(*b>*a){
         trocar(a,b);
         printf("O maior eh %i e o segundo eh %i", *a,*b);}
+    else if(*a==*b){
+        printf("Os dois são iguais.");}
+    }
     return 0;
 }
 int main(void)
