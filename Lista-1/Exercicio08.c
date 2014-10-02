@@ -27,7 +27,7 @@ int main(void)
 void mm(int *v, int a, int *maximo, int *ocorre);
 {
     ocorre = 0;
-    int i, j, aux, count;
+    int i, j, aux;
     for(i=0; i < a; i++)
     {
         for(j= i + 1; j < a; j++)
@@ -43,10 +43,18 @@ void mm(int *v, int a, int *maximo, int *ocorre);
     *maximo = v[a-1];
     
     for (i=0; i < a; i++)
-      {
-        
-        count++;
-      }
+    {
+        if (v[i] == *maximo)
+          *ocorre++;
+      
+    }
   
 
 }
+
+
+
+
+
+
+  
