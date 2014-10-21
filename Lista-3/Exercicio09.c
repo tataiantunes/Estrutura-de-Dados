@@ -12,7 +12,7 @@ int main(void)
   printf("Digite o numero de colunas da matriz: ");
   scanf("%i", &coluna);
   
-  matriz = (float*)malloc(coluna*sizeof(float));
+  matriz = (float**)malloc(coluna*sizeof(float*));
 
   for (i=0; i < linha; i++)
   {
