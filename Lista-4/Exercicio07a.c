@@ -75,9 +75,9 @@ int main (void)
         rpc[2] = sp1->farturtot/sp1->qtdefunc;
     }
 
-    printf("A renda per capita de RJ  eh: %.2f\n",percapita[0]);
-    printf("A renda per capita de BH  eh: %.2f\n",percapita[1]);
-    printf("A renda per capita de SP  eh: %.2f\n",percapita[2]);
+    printf("A renda per capita de RJ  eh: %.2f\n",rpc[0]);
+    printf("A renda per capita de BH  eh: %.2f\n",rpc[1]);
+    printf("A renda per capita de SP  eh: %.2f\n",rpc[2]);
   
 
     free(sp1,rj1,bh1);
