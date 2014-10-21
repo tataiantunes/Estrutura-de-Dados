@@ -16,14 +16,14 @@ int main(void)
   
   for (i = 0; i < linha; i++)
   {
-    matriz[i] = (int*) malloc(coluna*sizeof(int));
-    for (j = 0; j < colunas; j++)
+    matriz[i] = (int*)malloc(coluna*sizeof(int));
+    for (j = 0; j < coluna; j++)
       matriz[i][j] = 0;
   }
 
   for(i = 0; i < linha; i++)
   {
-    for(j = 0; j < colunas; j++)
+    for(j = 0; j < coluna; j++)
     {
       matriz[i][j] = rand() % 100;
     }
