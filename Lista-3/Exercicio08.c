@@ -34,7 +34,7 @@ int main (void)
   printf("Informe o numero de colunas da matriz: ");
   scanf("%i", &coluna);
   
-  matriz = (int*)malloc(coluna*sizeof(int));
+  matriz = (int**)malloc(coluna*sizeof(int*));
   
   for(i = 0; i < linha; i++)
     matriz[i] = (int*)malloc(linha*sizeof(int));
